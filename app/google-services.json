@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "611111003951",
+    "firebase_url": "https://meal-planner-8738e.firebaseio.com",
+    "project_id": "meal-planner-8738e",
+    "storage_bucket": "meal-planner-8738e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611111003951:android:9cfb1e62ad7d36c3",
+        "android_client_info": {
+          "package_name": "com.mealplanner.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611111003951-qa39ih3ih9j03vopd76a2km02f503b7l.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "611111003951-68po95dbaqeqk8a1k0qm6ea05k9nkba9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBqLnPrlplt5zY5Bvvhhnq_-lBIP-pNb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611111003951:android:d862dc97dd60b3f1",
+        "android_client_info": {
+          "package_name": "com.sirrineprogramming.mealplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611111003951-siakgorp6vuao7ktelbcqf3r6g18f3sr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sirrineprogramming.mealplanner",
+            "certificate_hash": "fc05c86d46f216104d4ae5b08eb30f262cb52bdf"
+          }
+        },
+        {
+          "client_id": "611111003951-qa39ih3ih9j03vopd76a2km02f503b7l.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "611111003951-68po95dbaqeqk8a1k0qm6ea05k9nkba9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBqLnPrlplt5zY5Bvvhhnq_-lBIP-pNb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611111003951-qa39ih3ih9j03vopd76a2km02f503b7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

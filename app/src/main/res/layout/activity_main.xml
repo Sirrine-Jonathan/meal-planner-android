@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_vertical|fill"
+    android:orientation="vertical"
+    tools:context="com.sirrineprogramming.mealplanner.MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="36sp"
+        android:text="@string/greeting"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="30sp"
+        android:onClick="startShoppingList"
+        android:padding="50dp"
+        android:text="@string/shopping_list_start_button" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lineSpacingExtra="8sp"
+        android:onClick="startPantry"
+        android:padding="50dp"
+        android:text="@string/pantry_start_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="signOutUser"
+        android:text="@string/sign_out_button" />
+
+</LinearLayout>
