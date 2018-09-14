@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ItemViewActivity">
+    tools:context=".ItemWithoutBarcodeView">
 
     <android.support.design.widget.AppBarLayout
-        android:id="@+id/item_View_appbarlayout"
+        android:id="@+id/item_View_Without_Barcode_appbarlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -28,7 +28,7 @@
         android:layout_below="@+id/item_View_appbarlayout">
 
         <EditText
-            android:id="@+id/edit_name"
+            android:id="@+id/edit_noBarcode_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
@@ -39,35 +39,30 @@
             android:hint="Name" />
 
         <EditText
-            android:id="@+id/edit_quantity"
+            android:id="@+id/edit_barcode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/edit_name"
-            android:ems="10"
-            android:hint="Quantity"
-            android:inputType="number" />
-
-        <EditText
-            android:id="@+id/edit_price"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/edit_quantity"
-            android:ems="10"
-            android:hint="Price"
-            android:inputType="numberDecimal" />
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="142dp"
+            android:hint="Barcode Num" />
 
         <Button
-            android:id="@+id/button_save"
+            android:id="@+id/button_no_barcode_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/edit_price"
+            android:layout_below="@+id/edit_barcode"
             android:text="Save" />
     </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
 </android.support.design.widget.CoordinatorLayout>

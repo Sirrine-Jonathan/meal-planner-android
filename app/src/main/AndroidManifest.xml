@@ -42,6 +42,10 @@
         <activity
             android:name=".ItemViewActivity"
             android:label="@string/title_activity_item_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItemWithoutBarcodeView"
+            android:label="@string/title_activity_item_without_barcode_view"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

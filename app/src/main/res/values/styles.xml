@@ -16,5 +16,11 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="itemButtonNoBarcode" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">#ffaaaa</item>
 
+    </style>
+    <style name="itemButtonHasBarcode" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">#d6d6d6</item>
+    </style>
 </resources>
